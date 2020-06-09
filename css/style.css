@@ -1,0 +1,115 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    line-height: 25px;
+}
+
+#header li a {
+    padding: 5px;
+    color: #565A5F;
+}
+
+#header button {
+    background-color: #3c7aef;
+    border-radius: 2px;
+    border-style: none;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+}
+
+.container2 {
+   position: absolute;
+   top: 20%;
+   left: 25%;
+   width: 50%;
+   min-width: 50%;
+   text-align: center;
+   margin-top: 25px;
+}
+
+.container2 div {
+    margin-bottom: 25px;
+}
+
+#search-box {
+   width: 80%;
+   min-width: 80%;
+   border-radius: 50px;
+   border: 0.5px solid;
+   border-color: #dcdee3;
+   font-size: 14px;
+   padding: 10px 20px;
+}
+
+#search-box:focus {
+    outline: none;
+}
+
+#search-box:hover {
+    box-shadow: 0 0 5px 1px rgba(131, 130, 130, 0.15);
+}
+
+#search-button:hover, #lucky-button:hover {
+    box-shadow: 0 0 1px 0.5px rgba(84, 88, 93, 0.7);
+}
+
+.footer li a {
+    padding-left: 27px;
+    color: #565A5F;
+}
+
+.footer {
+   position: fixed;
+   bottom: 0%;
+   left: 0%;
+   right: 0px;
+   background-color: #f0f0f0;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px; 
+}
+
+#search-button, #lucky-button {
+    background-color: #f1f1f1;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #565A5F;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 10px 15px 10px 15px;
+    border-style: none;
+}
